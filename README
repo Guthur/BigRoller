@@ -1,0 +1,25 @@
+Big Roller
+
+Big Roller is a random number generator application intend for delivery on NXP 
+LCP2119 ARM MCU. The application aims to provide an alternative to dice rolling
+in table top wargames and roleplaying games. 
+The system is implemented using the Riscy Pygness created by Frank Sergeant 
+(http://pygmy.utoh.org/riscy/index.html). Most of the application software was 
+written in high level Forth though a number of low level words were also added. 
+Minor changes/additions were made to the build files to allow for successful 
+delivery on LPC2119.
+
+Unfortunately some of the changes I have made lack wider documentation, it was 
+never really meant for the 'wild'.
+
+LICENSE - I have included the Riscy Pygness License, see relevant documents.
+
+System Components:
+NXP LPC2119 stamp board
+4x20 Character LCD display with KS0066U driver
+12 button keypad
+Various resistors, capacitors and bits of wire; stuff every self respecting 
+embedded systems hobbyist should have lying around in abundance.
+
+DISCLAIMER - I accept no responsibility for any damages or lose incurred from
+the download and/or use of this software.
